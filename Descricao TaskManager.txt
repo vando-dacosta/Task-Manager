@@ -1,0 +1,14 @@
+titulo, descricao, datainicio, datafim, estado(por iniciar, em progresso, concluido, cancelado), lista de autores.
+
+nome, email, contacto, funcao
+
+{
+	titulo: "login",
+	descricao: "login com gmail",
+ 	dataInicio: 2022-08-20
+	dataFim: 2022-08-21,
+	estado: "por iniciar",
+	autores: [devs]
+
+}
+
