@@ -21,7 +21,7 @@ var store = (req, res) => {
             descricao: req.query.descricao,
             datainicio: req.query.datainicio,
             datafim: req.query.datainicio,
-            estado: req.query.estado??"por iniciar",
+            estado: req.query.estado,
             devid: req.query.devid
         }).run(connection).then(response => res.send(responseModel(true, response)))
         .catch(error => res.send({status: false, data: error}));
